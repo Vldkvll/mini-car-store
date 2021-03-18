@@ -1,0 +1,30 @@
+  
+  .pagination {
+    padding-top: 70px;
+    width: 100%;
+  }
+  
+  .pagination-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination-list__item {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 22px;
+    border: 2px solid transparent;
+    margin: 0 4px;
+    color: #c4c4c4;
+  }
+  
+  .pagination-list__item a {
+    display: block;
+  }
+  
+  .pagination-list__item.pagination-list__item--active {
+    color: #1c62cd;
+    border: 2px solid #1c62cd;
+  }

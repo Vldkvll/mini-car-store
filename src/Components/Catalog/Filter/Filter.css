@@ -1,0 +1,107 @@
+.catalog {
+    margin-bottom: 100px;
+  }
+  
+  .catalog__title {
+    font-family: "SFProDisplay-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 26px;
+  }
+  
+  .catalog__filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .catalog__filter-items button {
+    background: #f0f0f4;
+    border-radius: 3px;
+    padding: 4px 22px 4px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2f3035;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  .catalog__filter-items button + button {
+    margin-left: 8px;
+  }
+  
+  .catalog__filter-btn {
+    display: flex;
+    align-items: center;
+  }
+  
+  .catalog__filter-btn button {
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .catalog__filter-btn button + button {
+    margin-left: 10px;
+  }
+  
+  .catalog__filter-btngrid {
+    width: 26px;
+    height: 21px;
+  }
+  
+  .catalog__filter-btngrid,
+  .catalog__filter-btnline {
+    opacity: 0.3;
+  }
+  
+  .catalog__filter-button--active {
+    opacity: 1;
+  }
+  
+  .catalog__filter-btnline {
+    width: 25px;
+    height: 19px;
+  }
+  
+  .select-item {
+    border: 1px solid #d7d9df;
+    padding: 8px 46px 8px 20px;
+    margin-right: 34px;
+    /* z-index: 1; */
+  }
+  
+  .select-item.dropdown .jq-selectbox__dropdown {
+    z-index: 20;
+  }
+  
+  .select-item .jq-selectbox__trigger {
+    top: 6px;
+    right: -9px;
+  }
+  
+  .select-item.dropdown .jq-selectbox__trigger {
+    transform: rotate(180deg);
+    background-color: #fff;
+  }
+  
+  .catalog__inner {
+    display: flex;
+  }
+  
+  .catalog__inner-aside {
+    min-width: 290px;
+    margin-right: 10px;
+  }
+  
+  .catalog__inner-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .catalog__inner-list .product-item__wrapper {
+    margin-bottom: 30px;
+  }
