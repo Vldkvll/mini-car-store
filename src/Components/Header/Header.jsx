@@ -41,7 +41,9 @@ function Header() {
                             <p className="header__adress">
                                 Харьков, пр. Науки 25
                             </p>
-                            {location.pathname !== "/cart" && (
+                            { 
+                            // eslint-disable-next-line
+                            location.pathname !== "/cart" && (
                                 <ul className="user-list">
                                     <li className="user-list__item">
                                         <div

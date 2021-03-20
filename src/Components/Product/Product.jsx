@@ -1,9 +1,15 @@
 import React from 'react'
+import Loader from '../Loader/Loader'
+import Spinner from '../Spinner/Spinner'
 
 function Product() {
     return (
         <div>
-            Product
+            {
+                
+            }
+            <Spinner />
+            {/* <Loader /> */}
         </div>
     )
 }
