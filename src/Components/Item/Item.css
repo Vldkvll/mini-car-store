@@ -1,3 +1,14 @@
+.catalog__inner-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.catalog__inner-list .product-item__wrapper {
+  margin-bottom: 30px;
+}
+
+
 .product-item__wrapper {
     position: relative;
     width: 270px;

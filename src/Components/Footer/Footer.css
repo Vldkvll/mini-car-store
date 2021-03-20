@@ -2,24 +2,24 @@
 
 .footer {
     background: #f0f0f4;
-  }
-  
-  .footer-top {
+}
+
+.footer-top {
     padding-top: 43px;
-  }
-  
-  .footer-top__inner {
+}
+
+.footer-top__inner {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .footer-form {
+}
+
+.footer-form {
     margin-top: 40px;
     display: flex;
     justify-content: flex-start;
-  }
-  
-  .footer-form__input {
+}
+
+.footer-form__input {
     width: 200px;
     /* height: 33px; */
     background: #ffffff;
@@ -28,13 +28,13 @@
     border: none;
     line-height: 17px;
     font-size: 14px;
-  }
-  
-  .footer-form__input::placeholder {
+}
+
+.footer-form__input::placeholder {
     color: #c4c4c4;
-  }
-  
-  .footer-form__btn {
+}
+
+.footer-form__btn {
     font-family: "SFProDisplay-Semibold", sans-serif;
     font-weight: 600;
     background: #1c62cd;
@@ -46,62 +46,70 @@
     text-transform: uppercase;
     color: #ffffff;
     margin-left: -5px;
-  }
-  
-  .footer-top__item {
+}
+
+.footer-top__item {
     width: 200px;
-  }
-  
-  .footer-top__newslatter.footer-top__item {
+}
+
+.footer-top__newslatter.footer-top__item {
     width: 295px;
     margin-right: 10px;
-  }
-  
-  .footer-top__title {
+}
+
+.footer-top__title {
     font-family: "SFProDisplay-Bold", sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
-  }
-  
-  .footer-list {
+}
+
+.footer-list {
     font-size: 14px;
     line-height: 22px;
-  }
-  
-  .footer-top__social.footer-top__item {
+}
+
+.footer-top__social.footer-top__item {
     width: 250px;
     /* padding-right: 70px; */
-  }
-  
-  .social-list {
+}
+
+.social-list {
     display: flex;
     align-items: center;
     height: 100%;
-  }
-  
-  .social-list__item + .social-list__item {
+}
+
+.social-list__item + .social-list__item {
     margin-left: 30px;
-  }
-  
-  .social-list__item:hover {
-    filter: grayscale(1);
-  }
-  
-  .footer-bottom {
+}
+
+.social-list__item {
+    cursor: pointer;
+    /* filter: sepia(100%); */
+    filter: invert(35%);
+}
+.social-list__item:hover {
+    cursor: pointer;
+    /* filter: sepia(100%); */
+    filter: invert(1%);
+}
+
+.footer-bottom {
     padding: 46px 0 22px;
     display: flex;
     justify-content: center;
-  }
-  
-  .footer-bottom__link {
+}
+
+.footer-bottom__link {
     font-size: 10px;
     line-height: 12px;
     color: #48494d;
     margin-right: 81px;
-  }
-  
-  .footer-drop, .footer-droptitle {
+}
+
+.footer-drop,
+.footer-droptitle {
     pointer-events: none;
-  }
-  /* end footer  */
+}
+/* end footer  */

@@ -96,12 +96,3 @@
     margin-right: 10px;
   }
   
-  .catalog__inner-list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .catalog__inner-list .product-item__wrapper {
-    margin-bottom: 30px;
-  }

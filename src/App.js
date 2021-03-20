@@ -10,15 +10,6 @@ import { useEffect, useState } from "react";
 import Spinner from "./Components/Spinner/Spinner";
 import Footer from "./Components/Footer/Footer";
 
-const test = {
-    id: "bix27468fjc",
-    title: "Audi",
-    description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
-    price: 100,
-    inCart: true,
-};
-
 function App() {
     const [totalItemsCount, setTotalItemsCount] = useState("");
     const [data, setData] = useState("");
@@ -50,6 +41,7 @@ function App() {
     //     };
     //     res();
     // }, []);
+    
     console.log(data);
 
     const onPageChange = (page) => {
