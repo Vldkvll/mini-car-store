@@ -86,12 +86,10 @@
 
 .social-list__item {
     cursor: pointer;
-    /* filter: sepia(100%); */
     filter: invert(35%);
 }
 .social-list__item:hover {
     cursor: pointer;
-    /* filter: sepia(100%); */
     filter: invert(1%);
 }
 

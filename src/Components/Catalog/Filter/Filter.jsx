@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./Filter.css";
 
 function Filter() {
@@ -7,10 +8,13 @@ function Filter() {
             <div className="catalog__filter">
         <div className="catalog__filter__inner">
           <div className="catalog__filter-items mobile-overflow">
-            <button>Полноприводные</button>
-            <button>от 5000</button>
+            <Link
+            to='./newproduct'
+             className="catalog__filter-items-btn"
+            >создать карточку объекта</Link>
+            {/* <button>от 5000</button>
             <button>BRP</button>
-            <button>еще</button>
+            <button>еще</button> */}
           </div>
 
         </div>

@@ -5,13 +5,12 @@ import Spinner from '../Spinner/Spinner'
 function Product() {
     return (
         <div>
-            {
-                
-            }
-            <Spinner />
-            {/* <Loader /> */}
+
         </div>
     )
 }
+
+{/* <Spinner /> */}
+{/* <Loader /> */}
 
 export default Product
