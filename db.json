@@ -14,7 +14,7 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
       "price": 150,
       "img": "http://mosautoshina.ru/i/auto/bmw_2-series_2020.jpg",
-      "inCart": true
+      "inCart": false
     },
     {
       "id": "ox98i1f5idg",
@@ -22,7 +22,7 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
       "price": 200,
       "img": "https://pulse-uk.org.uk/wp-content/uploads/2019/03/Citroen-C3-Aircross.jpg",
-      "inCart": true
+      "inCart": false
     },
     {
       "id": "adv62bxeq9i",
@@ -78,7 +78,7 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
       "price": 550,
       "img": "https://www.protrusmoto.com/wp-content/uploads/2020/01/SEAT-ARONA-SUV.jpg",
-      "inCart": true
+      "inCart": false
     },
     {
       "id": "jko2vslbj4",
@@ -187,35 +187,11 @@
       "quantity": 1
     },
     {
-      "id": "z60tmp10ba",
-      "title": "SEAT",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
-      "price": 550,
-      "img": "https://www.protrusmoto.com/wp-content/uploads/2020/01/SEAT-ARONA-SUV.jpg",
-      "quantity": 1
-    },
-    {
       "id": "epeYnch",
       "title": "Mercedes",
       "description": "Push your limits. Or don’t.\nTake a break from the stress of everyday life. The new generation of the innovative MBUX multimedia system allows you to intuitively operate important functions by voice or touch",
       "price": "1000",
       "img": "https://benser.ru/upload/medialibrary/954/w205-mercedes-c_class.jpg",
-      "quantity": 1
-    },
-    {
-      "id": "ox98i1f5idg",
-      "title": "Citroen",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
-      "price": 200,
-      "img": "https://pulse-uk.org.uk/wp-content/uploads/2019/03/Citroen-C3-Aircross.jpg",
-      "quantity": 1
-    },
-    {
-      "id": "ox16i1f5idg",
-      "title": "BMW",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
-      "price": 150,
-      "img": "http://mosautoshina.ru/i/auto/bmw_2-series_2020.jpg",
       "quantity": 1
     }
   ]

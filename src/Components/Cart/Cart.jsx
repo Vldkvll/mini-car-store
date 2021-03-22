@@ -3,15 +3,17 @@ import CartItem from "../CartItem/CartItem";
 import bigCart from "../../images/big-cart.svg";
 import "./Cart.css";
 
-function Cart({ dataCart, handleAddToCart, handleDeleteCart, totalCost, handleMinusItemInCart}) {
+function Cart({ dataCart, handleAddToCart, handleDeleteCart, handleMinusItemInCart}) {
     // console.log("dataCart");
     // console.log(dataCart);
 
 
 
-    // const handleCheckout = () => {
-    //     let res = alert(`Your Sum is ${totalCost}`)
-    // } 
+    const handleCheckout = () => {
+        // let res = alert(`Your Sum is ${totalCost}`)
+        return dataCart.reduce((acc, item )  => acc + Number(item.price),0)
+
+    } 
 
 
     return (
@@ -38,7 +40,11 @@ function Cart({ dataCart, handleAddToCart, handleDeleteCart, totalCost, handleMi
             </div>
             <div className='total-cost'>
                 <h3>
-                Total ${totalCost}
+                Total 
+                <span>
+                ${handleCheckout()}
+
+                </span>
                 </h3>
                 {/* <button
                 onClick={handleCheckout}

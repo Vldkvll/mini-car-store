@@ -131,6 +131,7 @@ function App() {
         if (delCarId === null) return;
         const res = async () => {
             const prod = await api.deleteProduct("cart", delCarId);
+
             setDataCart(prod);
         };
         res();
@@ -219,7 +220,7 @@ function App() {
         console.log(item.id);
         setDelCarId(item.id);
         handleCompleteEditProduct(editItem);
-        setChangeLengthCart((prev) => +prev - 1);
+        setChangeLengthCart((prev) => Number(prev) - 1);
         // setChangeLength((prev) => +prev + 1);
     };
 

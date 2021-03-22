@@ -30,7 +30,7 @@ function CartItem({
                             ? () => handleDeleteCart(item)
                             : () => handleMinusItemInCart(item))
                     }
-                    // onClick={() => handleAddToCart(item.id)}
+                    
                 >
                     <img className="" src={del} alt="cart" />
                 </button>
