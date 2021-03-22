@@ -21,16 +21,11 @@ export const api = {
                 },
             }
         );
-        console.log(" getProductPagination response.json()")
-        let res =  response.json();
-        console.log(res)
-        console.log("uri getProductPagination")
-        console.log(uri)
-        return res;
+        return response.json();
     },
 
-    createProduct: async (uri, item, page=1) => {
-        const response = await fetch(`${BASE_URL}${uri}`, {
+    createProduct: async (uri, item, page = 1) => {
+        await fetch(`${BASE_URL}${uri}`, {
             method: "POST",
             // mode: "CORS",
             body: JSON.stringify(item),
@@ -39,16 +34,11 @@ export const api = {
                 Accept: "application/json",
             },
         });
-        console.log("response.json()")
-        let res =  response.json();
-        console.log(res)
-        console.log("uri")
-        console.log(uri)
 
         return api.getProductPagination(uri, page);
     },
 
-    editProduct: async (uri, item, page=1) => {
+    editProduct: async (uri, item, page = 1) => {
         await fetch(`${BASE_URL}${uri}/${item.id}`, {
             method: "PATCH",
             // mode: "CORS",
@@ -61,8 +51,6 @@ export const api = {
         return api.getProductPagination(uri, page);
     },
     deleteProduct: async (uri, id, page) => {
-        console.log('delete')
-        console.log(id)
         await fetch(`${BASE_URL}${uri}/${id}`, {
             method: "DELETE",
             // mode: "CORS",
@@ -71,8 +59,6 @@ export const api = {
                 Accept: "application/json",
             },
         });
-        console.log("uri")
-        console.log(uri)
         return api.getProductPagination(uri, page);
     },
 };

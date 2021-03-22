@@ -32,5 +32,18 @@
 .total-cost span {
     padding: 10px;
     color: rgb(21, 21, 46);
+}
 
+.emty-cart {
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+}
+.emty-cart h3 {
+padding: 30px;
+}
+
+.emty-cart__link {
+    text-decoration: none;
+    color: rgb(27, 48, 170);
 }

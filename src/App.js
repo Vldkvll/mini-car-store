@@ -67,13 +67,10 @@ function App() {
         };
         res();
     }, [changeLengthCart]);
-    // console.log("DataCart");
-    // console.log(dataCart);
 
     useEffect(() => {
         if (newProduct === null) return;
-        // console.log("createProduct newProduct");
-        // console.log(newProduct);
+
         const create = async () => {
             await api.createProduct("products", newProduct);
         };
@@ -82,8 +79,6 @@ function App() {
 
     useEffect(() => {
         if (newItemInCart === null) return;
-        // console.log("createProduct newItemInCart");
-        // console.log(newItemInCart);
         const create = async () => {
             await api.createProduct("cart", newItemInCart);
         };
@@ -109,7 +104,6 @@ function App() {
         const res = async () => {
             const prod = await api.editProduct("cart", editCart);
             setDataCart(prod);
-            // setEditProduct(null);
         };
         res();
     }, [editCart]);
@@ -137,10 +131,7 @@ function App() {
         res();
     }, [delCarId]);
 
-    // console.log(data);
-
     const onPageChange = (page) => {
-        // console.log(page);
         setCurrrentPage((prev) => prev = page);
     };
 
@@ -177,12 +168,6 @@ function App() {
             quantity: 1,
         };
         const editProd = { ...item, inCart: true };
-        console.log("item");
-        console.log(item);
-        console.log("cartItem");
-        console.log(cartItem);
-        console.log("editProd");
-        console.log(editProd);
 
         setNewItemInCart(cartItem);
         setChangeLengthCart((prev) => +prev + 1);
@@ -193,15 +178,11 @@ function App() {
         if (item.quantity>0) {
             let quantity = +item.quantity - 1;
             const editCart = { ...item, quantity };
-            // console.log("editCart");
-            // console.log(editCart);
             return setEditCart(editCart);
         }
     }
 
     const handleDelete = (id) => {
-        // console.log("handleDelete")
-        // console.log(id)
         setDelId(id);
         setChangeLength((prev) => +prev + 1);
     };
@@ -216,15 +197,12 @@ function App() {
             img,
             inCart: false,
         };
-        console.log("handleDeleteCar");
-        console.log(item.id);
+
         setDelCarId(item.id);
         handleCompleteEditProduct(editItem);
-        setChangeLengthCart((prev) => Number(prev) - 1);
-        // setChangeLength((prev) => +prev + 1);
+        setChangeLengthCart((prev) => Number(prev) - 2);
     };
 
-    // if (!data) return <Spinner />;
     return (
         <>
             <div className="Container">

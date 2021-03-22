@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Item from "../Item/Item";
 import Filter from "./Filter/Filter";
 import Pagination from "./Pagination/Pagination";
@@ -13,14 +13,22 @@ function Catalog({
     handleDelete,
     handleEditProduct,
 }) {
+    const [isRerender, setisRerender] = useState(true);
+
     const handleFilter = (event) => {
+
         switch (event) {
             case "":
+                setisRerender(p=> !p)
                 return;
-            case "max":
-                return data.sort((a, b) => Number(a.price) - Number(b.price));
-            case "min":
-                return data.sort((a, b) => Number(b.price) - Number(a.price));
+                case "max":
+                setisRerender(p=> !p)
+                return data.sort((a, b) => Number(a.price) - Number(b.price))
+                    ;
+                    case "min":
+                setisRerender(p=> !p)
+                return  data.sort((a, b) => Number(b.price) - Number(a.price))
+                ;
 
             default:
                 return data;
@@ -31,6 +39,7 @@ function Catalog({
         <div className="catalog-container">
             <Filter handleFilter={handleFilter} />
             <Item
+            isRerender={isRerender}
                 data={data}
                 handleAddToCart={handleAddToCart}
                 handleDelete={handleDelete}
