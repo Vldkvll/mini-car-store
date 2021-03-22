@@ -14,7 +14,7 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
       "price": 150,
       "img": "http://mosautoshina.ru/i/auto/bmw_2-series_2020.jpg",
-      "inCart": false
+      "inCart": true
     },
     {
       "id": "ox98i1f5idg",
@@ -22,7 +22,7 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
       "price": 200,
       "img": "https://pulse-uk.org.uk/wp-content/uploads/2019/03/Citroen-C3-Aircross.jpg",
-      "inCart": false
+      "inCart": true
     },
     {
       "id": "adv62bxeq9i",
@@ -37,7 +37,7 @@
       "title": "Mazda",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
       "price": 300,
-      "img": "https://mazda-akpp.ru/wp-content/uploads/2020/02/7E74BE7A-07FE-4C00-A031-65ED97F943B2.png",
+      "img": "https://quto.ru/service-imgs/51/77/b9/ca/5177b9cae02c8.jpg",
       "inCart": false
     },
     {
@@ -78,7 +78,7 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
       "price": 550,
       "img": "https://www.protrusmoto.com/wp-content/uploads/2020/01/SEAT-ARONA-SUV.jpg",
-      "inCart": false
+      "inCart": true
     },
     {
       "id": "jko2vslbj4",
@@ -126,7 +126,7 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
       "price": 850,
       "img": "https://www.valleyhonda.net/assets/stock/ColorMatched_01/White/640/cc_2021HOC01_01_640/cc_2021HOC010052_01_640_WX.jpg",
-      "inCart": true
+      "inCart": false
     },
     {
       "id": "ixp8ux8u33h",
@@ -135,6 +135,46 @@
       "price": 900,
       "img": "https://autoportal.ua/img/newcars34/min/hyundai_tucson_21_34.jpg",
       "inCart": false
+    },
+    {
+      "title": "Lincoln Continental",
+      "price": "1999",
+      "img": "https://images.dealer.com/ddc/vehicles/2020/Lincoln/Continental/Sedan/trim_Black_Label_2eeac1/still/front-left/front-left-640-en_US.jpg",
+      "description": "Have you been planning on purchasing or leasing a new Lincoln car for sale?One of the best places to go to find luxury cars for sale is Penske Lincoln. ",
+      "inCart": false,
+      "id": "m6DhBAE"
+    },
+    {
+      "title": "Volvo V40 D3",
+      "price": "2000",
+      "img": "https://images.carandbike.com/car-images/big/volvo/v40/volvo-v40.jpg?v=12",
+      "description": "Dadra, Dadra and Nagar Haveli",
+      "inCart": false,
+      "id": "yy-L-Nr"
+    },
+    {
+      "title": "Bmw",
+      "price": "250",
+      "img": "http://mosautoshina.ru/i/auto/bmw_2-series_2020.jpg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
+      "inCart": false,
+      "id": "tBfz8_8"
+    },
+    {
+      "title": "Mercedes",
+      "price": "1000",
+      "img": "https://benser.ru/upload/medialibrary/954/w205-mercedes-c_class.jpg",
+      "description": "Push your limits. Or don’t.\nTake a break from the stress of everyday life. The new generation of the innovative MBUX multimedia system allows you to intuitively operate important functions by voice or touch",
+      "inCart": true,
+      "id": "epeYnch"
+    },
+    {
+      "title": "Saab",
+      "price": "1111",
+      "img": "https://assets.catawiki.nl/assets/2017/11/22/e/1/8/e18fb1a6-cd55-4008-aa77-05c4b2bfd2a5.jpg",
+      "description": "Saab 900 Turbo Aero - Red",
+      "inCart": false,
+      "id": "DlJNF0x"
     }
   ],
   "cart": [
@@ -144,6 +184,38 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
       "price": 100,
       "img": "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/genbae/2019.png?wid=850",
+      "quantity": 1
+    },
+    {
+      "id": "z60tmp10ba",
+      "title": "SEAT",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
+      "price": 550,
+      "img": "https://www.protrusmoto.com/wp-content/uploads/2020/01/SEAT-ARONA-SUV.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "epeYnch",
+      "title": "Mercedes",
+      "description": "Push your limits. Or don’t.\nTake a break from the stress of everyday life. The new generation of the innovative MBUX multimedia system allows you to intuitively operate important functions by voice or touch",
+      "price": "1000",
+      "img": "https://benser.ru/upload/medialibrary/954/w205-mercedes-c_class.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "ox98i1f5idg",
+      "title": "Citroen",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
+      "price": 200,
+      "img": "https://pulse-uk.org.uk/wp-content/uploads/2019/03/Citroen-C3-Aircross.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "ox16i1f5idg",
+      "title": "BMW",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, qui?",
+      "price": 150,
+      "img": "http://mosautoshina.ru/i/auto/bmw_2-series_2020.jpg",
       "quantity": 1
     }
   ]

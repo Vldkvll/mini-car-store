@@ -10,11 +10,18 @@ function Catalog({
     totalItemsCount,
     currentPage,
     handleAddToCart,
+    handleDelete,
+    handleEditProduct
 }) {
     return (
         <div className="catalog-container">
             <Filter />
-            <Item data={data} handleAddToCart={handleAddToCart} />
+            <Item
+                data={data}
+                handleAddToCart={handleAddToCart}
+                handleDelete={handleDelete}
+                handleEditProduct={handleEditProduct}
+            />
             <Pagination
                 onPageChange={onPageChange}
                 currentPage={currentPage}

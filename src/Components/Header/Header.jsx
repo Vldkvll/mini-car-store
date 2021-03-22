@@ -7,7 +7,7 @@ import heart from "../../images/heart.svg";
 import user from "../../images/user.svg";
 import cart from "../../images/cart.svg";
 
-function Header() {
+function Header({totalCurtItemsCount}) {
     const location = useLocation();
 
     return (
@@ -74,7 +74,9 @@ function Header() {
                                                     alt="cart"
                                                     className="user-list__img"
                                                 />
-                                                <p className="basket__num">1</p>
+                                                <p className="basket__num">{
+                                                    totalCurtItemsCount ? totalCurtItemsCount : ''
+                                                }</p>
                                             </div>
                                         </li>
                                     </Link>

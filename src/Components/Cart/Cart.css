@@ -1,0 +1,27 @@
+.catalog-title {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.catalog-title h1 {
+    padding: 0 10px;
+}
+
+.catalog__inner-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.total-cost {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 15px;
+}
