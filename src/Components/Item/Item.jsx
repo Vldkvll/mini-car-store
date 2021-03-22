@@ -3,8 +3,10 @@ import "./Item.css";
 
 import Product from "../Product/Product";
 
-function Item({ data, handleAddToCart, handleDelete, handleEditProduct }) {
+function Item({ data, handleAddToCart, handleDelete, handleEditProduct, isRerender }) {
+
     return (
+
         <>
             <div className="catalog__inner-list">
                 {data.map((item) => (

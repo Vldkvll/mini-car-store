@@ -11,11 +11,25 @@ function Catalog({
     currentPage,
     handleAddToCart,
     handleDelete,
-    handleEditProduct
+    handleEditProduct,
 }) {
+    const handleFilter = (event) => {
+        switch (event) {
+            case "":
+                return;
+            case "max":
+                return data.sort((a, b) => Number(a.price) - Number(b.price));
+            case "min":
+                return data.sort((a, b) => Number(b.price) - Number(a.price));
+
+            default:
+                return data;
+        }
+    };
+
     return (
         <div className="catalog-container">
-            <Filter />
+            <Filter handleFilter={handleFilter} />
             <Item
                 data={data}
                 handleAddToCart={handleAddToCart}

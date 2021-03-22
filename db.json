@@ -149,7 +149,7 @@
       "price": "2000",
       "img": "https://images.carandbike.com/car-images/big/volvo/v40/volvo-v40.jpg?v=12",
       "description": "Dadra, Dadra and Nagar Haveli",
-      "inCart": false,
+      "inCart": true,
       "id": "yy-L-Nr"
     },
     {
@@ -165,7 +165,7 @@
       "price": "1000",
       "img": "https://benser.ru/upload/medialibrary/954/w205-mercedes-c_class.jpg",
       "description": "Push your limits. Or don’t.\nTake a break from the stress of everyday life. The new generation of the innovative MBUX multimedia system allows you to intuitively operate important functions by voice or touch",
-      "inCart": true,
+      "inCart": false,
       "id": "epeYnch"
     },
     {
@@ -187,11 +187,11 @@
       "quantity": 1
     },
     {
-      "id": "epeYnch",
-      "title": "Mercedes",
-      "description": "Push your limits. Or don’t.\nTake a break from the stress of everyday life. The new generation of the innovative MBUX multimedia system allows you to intuitively operate important functions by voice or touch",
-      "price": "1000",
-      "img": "https://benser.ru/upload/medialibrary/954/w205-mercedes-c_class.jpg",
+      "id": "yy-L-Nr",
+      "title": "Volvo V40 D3",
+      "description": "Dadra, Dadra and Nagar Haveli",
+      "price": "2000",
+      "img": "https://images.carandbike.com/car-images/big/volvo/v40/volvo-v40.jpg?v=12",
       "quantity": 1
     }
   ]
